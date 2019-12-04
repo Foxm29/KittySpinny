@@ -1,0 +1,78 @@
+@charset "UTF-8";
+header {
+	text-align: center;
+}
+
+#myForm {
+	padding-bottom: 5em;
+}
+
+.form_radio {
+	display: inline-block;
+	padding-right: 30px;
+}
+
+button {
+	margin-top: 2%;
+	width: 10em;
+	padding: 0.5%;
+}
+
+label {
+	display: block;
+	text-align: left;
+}
+
+input {
+	width: 27em;
+	margin-right: 1%;
+}
+
+input[type="radio"] {
+	display: inline-block;
+	width: auto;
+}
+
+fieldset {
+	padding-top: 5%;
+	border: 1px solid black;
+	border-radius: 9px;
+	padding-left: 10%;
+}
+
+legend {
+	background: #4CAF50;
+	padding: 0.3em;
+	border: 1px ;
+	border-radius: 9px;
+	font-size: 18px;
+}
+
+section {
+	width: auto;
+}
+
+input:required+span::after {
+	color: red;
+	content: "*"
+}
+
+input:required[type='email']:valid+span::after {
+	color: green;
+	content: "✔";
+}
+
+input:required[type='text']:valid+span::after {
+	color: green;
+	content: "✔";
+}
+
+input:required[type='password']:valid+span::after {
+	color: green;
+	content: "✔";
+}
+
+input:required[type='tel']:valid+span::after {
+	color: green;
+	content: "✔";
+}

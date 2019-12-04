@@ -1,0 +1,133 @@
+@charset "UTF-8";
+/* Maja Hergl */
+h1, h2 {
+	color: black;
+	text-align: center;
+	background-color: #F6CECE;
+	border-width: 2px;
+	border-style: solid;
+	border-color: grey;
+	font-family: sans-serif;
+	padding: 15px;
+	font-family: "Courier New";
+}
+
+h3 {
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+noscript {
+	font-size: 1.1em;
+	color: red;
+	text-align: center;
+}
+
+blockquote {
+	font-weight: bold;
+	text-align: center;
+	font-style: italic;
+	font-size: 1.5em;
+	font-family: serif;
+}
+
+nav {
+	font-size: large;
+	text-align: center;
+	background-color: aliceblue;
+	padding: 10px;
+}
+
+li{
+	padding: 1%;
+	font-size: large;
+	margin-left: 10%;
+}
+
+a:link {
+	color: blue;
+	padding: 8px;
+}
+
+a:visited {
+	color: purple;
+}
+
+a:hover {
+	font-weight: bold;
+}
+
+main {
+	
+	padding-left: 12%;
+	padding-right: 12%;
+}
+
+body {
+	font-family: sans-serif;
+}
+
+article {
+	padding-top: 1em;
+}
+
+#box {
+	background-color: aliceblue;
+	padding: 30px;
+	margin-bottom: 6em;
+}
+
+#back {
+	background-image:
+		url(../img/47829-himmel-hintergrundbilder-1920x1080-4k.jpg);
+	background-position: center;
+	background-size: 100%;
+	background-attachment: fixed;
+}
+
+#adr {
+	font-size: 1.3em;
+}
+
+.fett {
+	font-weight: bold;
+	padding: 1.3%;
+	background-color: aliceblue;
+}
+
+.fehlermeldung {
+	color: red;
+}
+
+.meldung {
+	color: green;
+	font-weight: bold;
+	background-color: aliceblue;
+	padding: 0.25%;
+}
+
+.logos {
+	width: 15%;
+}
+
+.columna {
+	flex-grow: 0;
+	flex-shrink: 1;
+	max-width: 23%;
+	margin: 1%;
+	margin-bottom: 4%;
+}
+
+.columna img {
+	width: 100%;
+	border: 1px solid;
+}
+
+.content {
+	display: flex;
+	flex-flow: row wrap;
+	text-align: center;
+}
+.beschreibung{
+	text-align: center;
+}
